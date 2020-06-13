@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>commanet</RootNamespace>
+    <Description>commanet Application</Description>
+    <Company>Dmitry Molodtsov</Company>
+    <Product>commanet</Product>
+    <Version>1.0.0.0</Version>
+    <Copyright>Dmitry Molodtsov</Copyright>
+    <PackageId>commanet.Application</PackageId>
+    <Authors>Dmitry Molodtsov</Authors>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="*">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="*" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="*" />
+    <PackageReference Include="NLog" Version="*" />
+  </ItemGroup>
+
+</Project>
