@@ -131,13 +131,11 @@ In case of presense same parameter in Common and application specific file - app
 {
     "LOGS": "../../../../../../../../Bin.CC4/Output/Log",
     "NLOG_MINLOGLEVEL"  : "Trace",
-  
-    "RMQHost"           : "localhost",
-  
-    "PRD_DB_TYPE"       : "ORACLE",
-    "PRD_DB_USER"       : "MYUSER",
-    "PRD_DB_PASSWORD"   : "MYPASSWORD",
-    "PRD_DB_CONNECTION" : "localhost:LEVEL2"
+    
+    "DB_TYPE"       : "ORACLE",
+    "DB_USER"       : "MYUSER",
+    "DB_PASSWORD"   : "MYPASSWORD",
+    "DB_CONNECTION" : "localhost:MYINSTANCE"
 }
 ``` 
 -------------------------
