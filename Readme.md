@@ -1,6 +1,6 @@
 # commanet.Application
 --------------------------
-Package for creating service or command line utilities applications
+Package for creating services or command line utilities
 
 Provides:
 - Application lifecycle management
